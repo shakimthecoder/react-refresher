@@ -8,24 +8,7 @@ class App extends Component {
 
  this.state = {
    monsters: [
-   {
-    name: 'Frankenstein', 
-    id: 'fda2111'
-   },
-   {
    
-    name: 'Dracula',
-    id: 'fda2117'
-   },
-   {
-   
-    name: 'James',
-    id: 'fda217777711'
-   },
-   {
-   
-    name: 'Ghost'
-   }
   ]
  }; 
 }   
