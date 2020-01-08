@@ -15,12 +15,12 @@ class App extends Component {
    {
    
     name: 'Dracula',
-    id: 'fda2111'
+    id: 'fda2117'
    },
    {
    
     name: 'James',
-    id: 'fda2111'
+    id: 'fda217777711'
    },
    {
    
@@ -29,6 +29,10 @@ class App extends Component {
   ]
  }; 
 }   
+
+componentDidMount() {
+fetch('https://jsonplaceholder.typicode.com/users').then(response => console.log(response));
+}
   render() {
 
     return (
