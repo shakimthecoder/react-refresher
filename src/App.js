@@ -24,13 +24,13 @@ class App extends Component {
     name: 'Ghost'
    }
   ]
- }
-    
+ }; 
+}   
   render() {
 
     return (
       <div className="App">
-        
+        { this.state.monsters.map(monster => <h1> {monster.name} </h1>)}
       </div>
     );
   }
