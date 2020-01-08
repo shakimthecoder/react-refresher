@@ -7,9 +7,24 @@ class App extends Component {
  super();
 
  this.state = {
-   string: 'Shakim is a millionaire'
- };
-}
+   monsters: [
+   {
+    name: 'Frankenstein'
+   },
+   {
+   
+    name: 'Dracula'
+   },
+   {
+   
+    name: 'James'
+   },
+   {
+   
+    name: 'Ghost'
+   }
+  ]
+ }
     
   render() {
 
