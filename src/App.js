@@ -22,7 +22,10 @@ response.json())
 
     return (
       <div className="App">
-       <input type='search' placeholder='search' onChange={e => console.log(e.target.value)}></input>
+       <input type='search' 
+         placeholder='search' 
+         onChange={e => this.setState({ searchField: e.target.value})}>
+      </input>
         <CardList monsters={this.state.monsters}>
         
         </CardList>
