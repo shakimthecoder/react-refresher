@@ -30,6 +30,7 @@ handleChange = e => {
     );
     return (
       <div className="App">
+        <h1> The Project is Done</h1>
         <SearchBox
         placeholder='search monsters'
         handleChange={this.handleChange}
